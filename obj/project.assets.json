@@ -7511,11 +7511,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/francisdecena/project/CoreApiFundamentals/src/CoreCodeCamp.csproj",
+      "projectUniqueName": "/Users/francisdecena/project/CoreApiFundamentals/CoreCodeCamp.csproj",
       "projectName": "CoreCodeCamp",
-      "projectPath": "/Users/francisdecena/project/CoreApiFundamentals/src/CoreCodeCamp.csproj",
+      "projectPath": "/Users/francisdecena/project/CoreApiFundamentals/CoreCodeCamp.csproj",
       "packagesPath": "/Users/francisdecena/.nuget/packages/",
-      "outputPath": "/Users/francisdecena/project/CoreApiFundamentals/src/obj/",
+      "outputPath": "/Users/francisdecena/project/CoreApiFundamentals/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/francisdecena/.nuget/NuGet/NuGet.Config"
@@ -7528,6 +7528,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -7539,6 +7540,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -7579,7 +7581,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

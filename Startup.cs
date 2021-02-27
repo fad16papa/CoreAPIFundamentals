@@ -28,7 +28,12 @@ namespace CoreCodeCamp
 
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<CampContext>();
+            services.AddDbContext<CampContext>(opt =>
+            {
+                opt.UseLazyLoadingProxies();
+                opt.UseMySql(Configuration.GetConnectionString("ConnectionStrings"));
+            });
+
             services.AddScoped<ICampRepository, CampRepository>();
 
             services.AddAutoMapper(Assembly.GetExecutingAssembly());

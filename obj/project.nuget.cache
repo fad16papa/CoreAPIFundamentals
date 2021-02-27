@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ld2pqMz5ihIHz3RYZzapAqNhSMi6Q/NLOmtrx/X+Mag/qTOG64crIDBrJv9QUavWng7Mxx4Nw7NrGE9ncgO2hQ==",
+  "dgSpecHash": "L/Y5ZSdm4xRAD4JJV51AyN3EiDggtraPU6l8IbPQ2aWcdjYxsWF4JKXZISbEFEoMCJ/6un16/MFedkxjWU5KIg==",
   "success": true,
-  "projectFilePath": "/Users/francisdecena/project/CoreApiFundamentals/src/CoreCodeCamp.csproj",
+  "projectFilePath": "/Users/francisdecena/project/CoreApiFundamentals/CoreCodeCamp.csproj",
   "expectedPackageFiles": [
     "/Users/francisdecena/.nuget/packages/automapper/7.0.1/automapper.7.0.1.nupkg.sha512",
     "/Users/francisdecena/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/5.0.1/automapper.extensions.microsoft.dependencyinjection.5.0.1.nupkg.sha512",
